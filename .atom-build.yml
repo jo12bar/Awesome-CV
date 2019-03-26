@@ -1,0 +1,4 @@
+cmd: ubuntu run PATH="/usr/local/texlive/2018/bin/x86_64-linux:${PATH}" make
+targets:
+  clean:
+    cmd: ubuntu run PATH="/usr/local/texlive/2018/bin/x86_64-linux:${PATH}" make clean
