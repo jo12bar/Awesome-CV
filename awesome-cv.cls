@@ -430,7 +430,7 @@
         {\def\@photoborder{darkgray}}%
         {\def\@photoborder{none}}%
       \begin{tikzpicture}%
-        \node[\@photoshape, draw=\@photoborder, line width=0.3mm, inner sep=\photodim, fill overzoom image=\@photo] () {};
+        \node[\@photoshape, draw=\@photoborder, line width=0.3mm, inner sep=\photodim, fill shrink image=\@photo] () {};
       \end{tikzpicture}
     }%
   }
