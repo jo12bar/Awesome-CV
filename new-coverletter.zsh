@@ -116,7 +116,7 @@ cat <<EOF > $FILE_NAME.nogit.tex
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Johann M. Barnard~~~·~~~Résumé}
+  {Johann M. Barnard~~~·~~~Cover Letter}
   {}
 
 % Print the title with above letter informations
